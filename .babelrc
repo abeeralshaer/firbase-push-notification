@@ -1,0 +1,19 @@
+{
+  "presets": [
+    "react-native"
+  ],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./"],
+        "extensions": [".js", ".ios.js", ".android.js"],
+        "alias": {
+          "app": "./app",
+          "components": "./app/components",
+          "actions": "./app/interactions/actions",
+        }
+      }
+    ]
+  ]
+}
